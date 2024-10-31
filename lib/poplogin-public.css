@@ -1,0 +1,119 @@
+/**
+ * All of the CSS for both admin-specific functionality and
+ * public facing included in this file.
+ * @package Poplogin Plugin
+ */
+			
+				
+@media all and (min-width: 300px) and (max-width: 768px) {.poplogin-wrapper:padding: 5px;}}
+
+.poplogin-wrapper {
+margin: 0;
+padding: 0;
+}
+.poplogin-wrapper:after {
+content: " ";
+width: 100%;
+height: .05%;
+display: block;
+clear:both;
+}
+#poplogModal { 
+position: absolute;
+margin: 0;
+display: none;
+
+}
+.poplog-location {
+position: absolute;
+left: 4vw;
+top: 70px;
+display: block;
+background: #eee;
+width: 120px;
+height: 54px;
+padding: 2px;
+margin: 1px;
+z-index: 99993;
+
+}
+
+ /* The Modal (background) */
+.poplog-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.poplog-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.poplog-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.poplog-close:hover,
+.poplog-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.poplog-logo {
+display: block;
+width: 90%;
+position:relative;
+margin: 5px auto;
+}
+/* classes in order */
+.poploginWrap { 
+width: 90%;
+position: relative;
+margin: 0 auto;
+padding: 15px 30px;
+}
+.poploginDiv { 
+max-width: 980px;
+}
+.poplog-logo img { 
+text-shadow: none;
+margin: 0 auto;
+padding-left: 30px;
+margin-top: 2em;
+max-width: 90%;
+height: auto;
+
+}
+h1.poplog-title {
+text-shadow: none;
+padding-left: 30px;
+margin-top: 2em;
+}
+.poplogin-login {
+width: 90%;
+position: relative;
+margin: 0 auto;
+padding: 15px 30px;
+}
+
+
+
+
+/* Have A Wonderful Time */
